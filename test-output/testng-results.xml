@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Executing method with priority 0]]>
+    </line>
+    <line>
+      <![CDATA[Executing method with priority 1]]>
+    </line>
+    <line>
+      <![CDATA[Executing method with priority 2]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="179" started-at="2017-11-01T12:37:43Z" finished-at="2017-11-01T12:37:43Z">
+    <groups>
+    </groups>
+    <test name="Testing Log4j" duration-ms="179" started-at="2017-11-01T12:37:43Z" finished-at="2017-11-01T12:37:43Z">
+      <class name="PriorityAndSequencing">
+        <test-method status="PASS" signature="priorityZero()[pri:0, instance:PriorityAndSequencing@7a92922]" name="priorityZero" duration-ms="152" started-at="2017-11-01T18:07:43Z" finished-at="2017-11-01T18:07:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing method with priority 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- priorityZero -->
+        <test-method status="PASS" signature="priorityOneFalse()[pri:0, instance:PriorityAndSequencing@7a92922]" name="priorityOneFalse" duration-ms="1" started-at="2017-11-01T18:07:43Z" finished-at="2017-11-01T18:07:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing method with priority 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- priorityOneFalse -->
+        <test-method status="PASS" signature="feedExceptionIntoLogs()[pri:0, instance:PriorityAndSequencing@7a92922]" name="feedExceptionIntoLogs" duration-ms="1" started-at="2017-11-01T18:07:43Z" finished-at="2017-11-01T18:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedExceptionIntoLogs -->
+        <test-method status="PASS" signature="priorityTwo()[pri:0, instance:PriorityAndSequencing@7a92922]" name="priorityTwo" duration-ms="0" started-at="2017-11-01T18:07:43Z" finished-at="2017-11-01T18:07:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executing method with priority 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- priorityTwo -->
+      </class> <!-- PriorityAndSequencing -->
+    </test> <!-- Testing Log4j -->
+  </suite> <!-- Suite1 -->
+</testng-results>

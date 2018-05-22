@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementRepository>
+	<Elements>
+		<Element title="RelativeATag">
+			<tagName>a</tagName>
+		</Element>
+		<Element title="RelativeBTag">
+			<tagName>b</tagName>
+		</Element>
+		<Element title="RelativeTrTag">
+			<tagName>tr</tagName>
+		</Element>
+		<Element title="provProfileListLink">
+			<xpath1>//*[@id="provProfileListLink"]</xpath1>
+		</Element>
+		<Element title="manageVPPTokensLink">
+			<xpath1>//*[@id="manageVPPTokensLink"]</xpath1>
+		</Element>
+		<Element title="UploadVPPPaneTitle">
+			<xpath1>//div[contains(@class,'modal-header-text')]</xpath1>
+		</Element>
+		<Element title="RegionNameList">
+			<xpath1>//select[@id='vppRegionOption']</xpath1>
+		</Element>
+		<Element title="AppCatalog">
+			<xpath1>//span[contains(@class,'newUiTitle')]</xpath1>
+		</Element>
+		<Element title="ManageApps">
+			<xpath1> //span[contains(@class,'oldUiTitle')]</xpath1>
+		</Element>
+		<Element title="RelativeButtonTag">
+			<tagName>button</tagName>
+		</Element>
+		<Element title="RelativeSpanTag">
+			<tagName>span</tagName>
+		</Element>
+		<Element title="RelativeImageTag">
+			<tagName>img</tagName>
+		</Element>
+		<Element title="RelativetInputTag">
+			<tagName>input</tagName>
+		</Element>
+		<Element title="RelativeTableTag">
+			<tagName>table</tagName>
+		</Element>
+		<Element title="RelativeLiTag">
+			<tagName>li</tagName>
+		</Element>
+		<Element title="RelativeUlTag">
+			<tagName>ul</tagName>
+		</Element>
+		<Element title="RelativetLabelTag">
+			<tagName>label</tagName>
+		</Element>
+		<Element title="PasswordErrorMessage">
+			<xpath1>//*[@id="errorMsgDivText"]</xpath1>
+		</Element>
+		<Element title="EditAppsTable">
+			<xpath1>//*[@id="viewUI"]</xpath1>
+		</Element>
+		<Element title="PasswordErrorMessage1">
+			<xpath1>//*[@id="errorPass"]</xpath1>
+		</Element>
+		<Element title="TitleBar">
+			<xpath1>//*[@id="viewUIContentPanel"]</xpath1>
+		</Element>
+		<Element title="DistributeDialogBox">
+			<xpath1>//*[@aria-labelledby="ui-dialog-title-dialog-box-div"]</xpath1>
+			<xpath2>//*[@class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable top20 greyBorder padding10"]</xpath2>
+			<xpath3>//*[@id="dialog-box-div"]</xpath3>
+			<xpath4>//*[@id="distribution"]</xpath4>
+		</Element>
+		<Element title="RelativeButtonTag">
+			<tagName>button</tagName>
+		</Element>
+		<Element title="RelativeDivTag">
+			<tagName>div</tagName>
+		</Element>
+		<Element title="RelativeTdTag">
+			<tagName>td</tagName>
+		</Element>
+		<Element title="DisplayRecords">
+			<xpath1>//span[contains(@class,'infoText')]</xpath1>
+		</Element>
+		<Element title="ErrorMessage">
+			<xpath1>//div[contains(@id,'errorMsgDivText')]</xpath1>
+		</Element>
+		<Element title="UploadVPPCodeFilePaneTitle">
+			<xpath1>//div[contains(@class,'modal-header-text')]</xpath1>
+		</Element>
+		<Element title="TotalRecords">
+			<xpath1>//span[contains(@class,'infoText')]</xpath1>
+		</Element>
+		<Element title="DistributeApp">
+			<partiallink>Distribute App</partiallink>
+		</Element>
+		<Element title="PanelBody">
+			<xpath1>//*[@id="confirmPasswordForm"]</xpath1>
+		</Element>
+		<Element title="PanelBodynew">
+			<xpath1>//*[@id="passwordtext"]</xpath1>
+		</Element>
+		<Element title="PanelBodynewCotinueButton">
+			<xpath1>//*[@id="confirmPasswordForm"]</xpath1>
+		</Element>
+		<Element title="Loading">
+			<xpath1>//div[contains(@class,'ext-el-mask-msg') or contains(@class,'loadmask-msg') or contains(@class,'loadmask')]</xpath1>
+		</Element>
+		<Element title="CustomApplicationMenuListItem">
+			<xpath1>//a[contains(@class,'x-menu-item custom-menu-item')]</xpath1>
+			<xpath2>//a[contains(@class,'x-menu-item custom-menu-item')]/div</xpath2>
+		</Element>
+		<Element title="ApplicationContentDialog">
+			<xpath1>//div[contains(@id,'uploadApp')]</xpath1>
+		</Element>
+		<Element title="PasswordPanelTitle">
+			<xpath1>//div[contains(@id,'headerText')]</xpath1>
+		</Element>
+		<Element title="EditAppSaveButton">
+			<xpath1>//*[@id="bt_saveApp"]</xpath1>
+		</Element>
+		<Element title="WebAppNameTextBox">
+			<xpath1>//input[contains(@value,"#")]</xpath1>
+		</Element>
+		<Element title="WebAppDescriptionTextBox">
+			<xpath1>//textarea[contains(@title,"#")]</xpath1>
+		</Element>
+		<Element title="WebAppCategoryTextBox">
+			<xpath1>//input[contains(@value,"#")]</xpath1>
+		</Element>
+		<Element title="PolicyCheckBox">
+			<xpath1>//span[contains(@class,'field-container-right chkbx-grp-cont')]</xpath1>
+		</Element>
+		<Element title="PolicyCheckBoxNew">
+			<xpath1>//li[text()="#"]//following-sibling::li/div</xpath1>
+		</Element>
+		<Element title="BrowseButton">
+			<xpath1>//button[contains(@class,'browseBtn')]</xpath1>
+		</Element>
+		<Element title="UploadApp">
+			<tagName>Upload App</tagName>
+		</Element>
+		<Element title="AppSourceTextBox">
+			<xpath1>//input[@id='IOSPublicAppSearchInput']</xpath1>
+		</Element>
+		<Element title="GoogleAppSourceTextBox">
+			<xpath1>//input[@id='androidPublicAppSearchInput']</xpath1>
+		</Element>
+		<Element title="WindowsAppSourceTextBox">
+			<xpath1>//input[@id='windowsPublicAppSearchInput']</xpath1>
+		</Element>
+		<Element title="ApplicationWrapper">
+			<xpath1>//div[contains(@class,'autoCompleteWrapper')]</xpath1>
+		</Element>
+		<Element title="ApplicationWrapper">
+			<xpath1>//div[contains(@class,'autoCompleteWrapper')]</xpath1>
+		</Element>
+		<Element title="ApplicationGridBox">
+			<xpath1>//ul[@aria-activedescendant='ui-active-menuitem' and contains(@style,'block')]</xpath1>
+		</Element>
+		<Element title="AndroidApplicationGridBox">
+			<xpath1>//ul[contains(@class,'ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all AndroidPublicAppSearchInput')]</xpath1>
+		</Element>
+		<Element title="WindowsApplicationGridBox">
+			<xpath1>//ul[contains(@class,'ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all windowsPublicAppSearchInput')]</xpath1>
+		</Element>
+		<Element title="ApplicationGridBoxContent">
+			<xpath1>//span[contains(@class,'appDet')]</xpath1>
+		</Element>
+		<Element title="EditApp">
+			<partiallink>Edit App</partiallink>
+		</Element>
+		<Element title="DistributeApp">
+			<partiallink>Distribute App</partiallink>
+		</Element>
+		<Element title="AlliOSDevicesRadioButton">
+			<tagName>AlliOSDevices</tagName>
+		</Element>
+		<Element title="GroupRadioButton">
+			<tagName>Group</tagName>
+		</Element>
+		<Element title="SpecificDeviceRadioButton">
+			<tagName>SpecificDevice</tagName>
+		</Element>
+		<Element title="Custom URL">
+			<tagName>Custom URL</tagName>
+		</Element>
+		<Element title="Message">
+			<xpath1>//div[@class='message']</xpath1>
+		</Element>
+		<Element title="DeleteApp">
+			<partiallink>Delete App</partiallink>
+		</Element>
+		<Element title="DeleteButton">
+			<xpath1>//*[contains(@id,'bt_delApp')]</xpath1>
+		</Element>
+		<Element title="DeleteConfirmBox">
+			<xpath1>//div[contains(@id,'confirmBox')]</xpath1>
+		</Element>
+		<Element title="DeleteButtonSet">
+			<xpath1>//div[contains(@class,'ui-dialog-buttonset')]</xpath1>
+		</Element>
+		<Element title="UpgradeAppButton">
+			<xpath1>//input[contains(@id,'bt_addAppVersion')]</xpath1>
+		</Element>
+		<Element title="UpgradeDialogBox">
+			<xpath1>//div[contains(@id,'dialog-box-div')]</xpath1>
+		</Element>
+		<Element title="UploadButton">
+			<xpath1>//button[.="Update"]</xpath1>
+		</Element>
+		<Element title="AddNewButton">
+			<xpath1>//button[contains(@id,'btnAddNew')]</xpath1>
+		</Element>
+		<Element title="BlueAddButton">
+			<xpath1>//input[contains(@class,'blue-btn')]</xpath1>
+		</Element>
+		
+		<Element title="BrowseButton">
+			<xpath1>//input[contains(@id,'uploadFileManageApp')] | //input[contains(@id,'multipartWebClipIcon')]</xpath1>
+		</Element>
+		
+		<Element title="BrowseButtonWebIcon">
+			<xpath1>input[contains(@id,'multipartWebClipIcon')]</xpath1>
+		</Element>
+		
+		<Element title="PasswordPanelTitle">
+			<xpath1>//*[@id="confirmPasswordForm"]</xpath1>
+		</Element>
+		<Element title="PasswordHeader">
+			<xpath1>//*[@id="headerText"]</xpath1>
+		</Element>
+		<Element title="RefreshButton">
+			<xpath1>//*[@class="titleBarBlueRefreshButton"]</xpath1>
+		</Element>
+		<Element title="RefreshButtonAppSummary">
+            <xpath1>//input[@id=‘bt_refreshApp’]</xpath1>
+        </Element>
+		<Element title="PasswordConfirmationBox">
+			<xpath1>//*[@id="passwordConfirmationDiv"]</xpath1>
+		</Element>
+		<Element title="ProvideURLLink">
+			<xpath1>//*[@id="divProvideURL"]</xpath1>
+		</Element>
+		<Element title="URLUploadTextbox">
+			<xpath1>//input[contains(@id,'urlManageApp')]</xpath1>
+		</Element>
+		<Element title="UpdateHistoryTable">
+			<xpath1>//*[text()='#']</xpath1>
+		</Element>
+		<Element title="UpdateHistoryTableNew">
+			<xpath1>//table/thead//div[text()="#"]/ancestor::thead/following-sibling::tbody//td</xpath1>
+		</Element>
+		<Element title="DeviceGroupList">
+			<xpath1>//*[@id="deviceGroupId1"]</xpath1>
+		</Element>
+		<Element title="ContinueButton">
+			<id>confirm</id>
+			<xpath1>//input[contains(@id,'confirm')]</xpath1>
+		</Element>
+		<Element title="NotificationDialogBox">
+			<xpath1>//img[contains(@id,'notification-close')]</xpath1>
+		</Element>
+		<Element title="AppPoliciesTable">
+			<xpath1>//*[@id="x-dv-category_div-app-summary_1_wrapper"]</xpath1>
+		</Element>
+		<Element title="AppPoliciesRows">
+			<xpath1>//ul[contains(@id,'x-dv-category_div-app-summary_1')]</xpath1>
+		</Element>
+		<Element title="ManageAppsTable">
+			<xpath1>//tbody[contains(@role,'alert')]</xpath1>
+		</Element>
+		<Element title="DistributeWindow">
+			<xpath1>//div[contains(@id,'vppUploadFormWrapper')]</xpath1>
+		</Element>
+		<Element title="ViewAppPageTitle">
+			<xpath1>//div[@id='appNameDiv']</xpath1>
+		</Element>
+		<Element title="DistributeToList">
+			<id>deviceType</id>
+			<xpath1>//*[@id="deviceType")]</xpath1>
+		</Element>
+		<Element title="DeviceNameTextbox">
+			<xpath1>//input[contains(@id,'distributeSearchInput1')]</xpath1>
+		</Element>
+		<Element title="DeviceNamesListTable">
+			<xpath1>//ul[contains(@class,'ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all specificDeviceInput')]</xpath1>
+		</Element>
+		<Element title="DeviceNamesList">
+			<xpath1>//li[contains(@class,'ui-menu-item')]</xpath1>
+		</Element>
+		<Element title="DescriptionEditButton">
+			<xpath1>//input[contains(@id,'description_editButton')]</xpath1>
+		</Element>
+		<Element title="WebClipUrlEditButton">
+			<xpath1>//input[contains(@id,'webClipUrl_editButton')]</xpath1>
+		</Element>
+		<Element title="CategoryEditButton">
+			<xpath1>//input[contains(@id,'category_editButton')]</xpath1>
+		</Element>
+		<Element title="DescriptionEditTextArea">
+			<xpath1>//textarea[contains(@id,'editable_description_editor')]</xpath1>
+		</Element>
+		<Element title="WebClipUrlEditor">
+			<xpath1>//input[contains(@id,'editable_webClipUrl_editor')]</xpath1>
+		</Element>
+		<Element title="CategoryEditor">
+			<xpath1>//input[contains(@id,'editable_category_editor')]</xpath1>
+		</Element>
+		<Element title="DescriptionEditSaveImage">
+			<xpath1>//img[contains(@id,'description_save')]</xpath1>
+		</Element>
+		<Element title="WebClipUrlSaveImage">
+			<xpath1>//img[contains(@id,'webClipUrl_save')]</xpath1>
+		</Element>
+		<Element title="CategorySaveImage">
+			<xpath1>//img[contains(@id,'category_save')]</xpath1>
+		</Element>
+		<Element title="UploadButtonFromWebAppIconPanel">
+			<xpath1>//input[contains(@id,'upload')]</xpath1>
+		</Element>
+		<Element title="CancelButtonFromWebAppIconPanel">
+			<xpath1>//input[contains(@id,'close')]</xpath1>
+		</Element>
+		<Element title="CancelButton">
+			<xpath1>//input[contains(@class,'grey-btn')]</xpath1>
+		</Element>
+		<Element title="ShowDeletedAppsButton">
+			<xpath1>//*[@id="showDeleted"]</xpath1>
+		</Element>
+		<Element title="WebAppSummaryPanel">
+			<xpath1>//div[contains(@class,'category-widget-info-cont')]</xpath1>
+		</Element>
+		<Element title="ApplicationDetailsText">
+			<xpath1>//pre[contains(@id,'non_editable_pre')]</xpath1>
+		</Element>
+		<Element title="ColumnHeadersTh">
+			<xpath1>//th[@class="ui-state-default"]</xpath1>
+		</Element>
+		<Element title="CustomizeColumnsButton">
+			<xpath1>//input[@id="manageUsersDiv_customize"]</xpath1>
+		</Element>
+		<Element title="checkBoxByLabel">
+			<xpath1>//*[@class='flCustomizedGrid-li']/label[text()="#"]/preceding-sibling::input</xpath1>
+		</Element>
+		<Element title="CustomizeColumnsSaveButton">
+			<xpath1>//input[contains(@class,'blue-btn')]</xpath1>
+		</Element>
+		<Element title="CustomizeColumnsDefaultButton">
+			<xpath1>//input[contains(@class,'grey-btn') and contains(@value,'Default')]</xpath1>
+		</Element>
+		<Element title="ButtonList">
+			<xpath1>//*[contains(@class,'ui-button-text')]</xpath1>
+		</Element>
+		<Element title="AppNameDiv">
+			<xpath1>//*[@id='appNameDiv']</xpath1>
+		</Element>
+		<Element title="AppNameTd">
+			<xpath1>//td[contains(text(),'#')]</xpath1>
+		</Element>
+		<Element title="UserNameTd">
+			<xpath1>//following-sibling::td[contains(text(),'#')]</xpath1>
+		</Element>
+		<Element title="ExportButton">
+			<xpath1>//*[@id='manageUsersDiv_exportBtn']</xpath1>
+		</Element>
+		<Element title="FileFormatDropDown">
+			<xpath1>//*[@id='manageUsersDiv_exportSelect']</xpath1>
+		</Element>
+		<Element title="NextButton">
+			<xpath1>//a[@id="table_manageUsersDiv_next"]</xpath1>
+		</Element>
+		<Element title="ColumnHeaderName">
+			<xpath1>//table//th//*[text()="#"]</xpath1>
+		</Element>
+		<Element title="AddScreenShotsButton">
+			<xpath1>//*[@id='bt_addScreenShots']</xpath1>
+		</Element>
+		<Element title="UploadButton">
+			<xpath1>//*[@id='upload']</xpath1>
+		</Element>
+		<Element title="DescriptionEditButton">
+			<xpath1>//*[@id='description_editButton']</xpath1>
+		</Element>
+		<Element title="EditableDescriptionEditor">
+			<xpath1>//*[@id='editable_description_editor']</xpath1>
+		</Element>
+		<Element title="DescriptionSaveButton">
+			<xpath1>//*[@id='description_save']</xpath1>
+		</Element>
+		
+		<Element title="DescnonEditablePre">
+			<xpath1>//*[@id='non_editable_pre']</xpath1>
+		</Element>
+		
+		<Element title="StopDistributionLink">
+			<xpath1>//span[contains(@title,'#')]/ancestor::li/child::img[contains(@class,'distImages') and @title='Stop Distribution']</xpath1>
+		</Element>
+		
+		<Element title="distributionColumnPositions">
+			<xpath1>//th/div[text()='#']/preceding::th</xpath1>
+		</Element>
+		<Element title="distributionColumn">
+			<xpath1>//td[#]</xpath1>
+		</Element>
+		<Element title="appRow">
+			<xpath1>//*[@id="appHolder"]/ancestor::tr | //td/div[text()='#']/ancestor::tr</xpath1>
+		</Element>
+		<Element title="StopDistributionImageButton">
+			<xpath1>//*[@id="toolTipStop0"]</xpath1>
+		</Element>
+		<Element title="ApplicationAttributeByHeaderIndex">
+			<xpath1>//*[@id='table_manageUsersDiv']/tbody/tr/td[#]/div[1]</xpath1>
+		</Element>
+		<Element title="UploadIpaApkFileLink">
+			<xpath1>//a[contains(text(),'Upload .apk file') or contains(text(),'Upload .ipa file')]</xpath1>
+		</Element>
+		<Element title="RelativeTh">
+			<tagName>th</tagName>
+		</Element>
+		<Element title="MoreMenuButton">
+			<xpath1>//button[contains(@id,"moreMenuWrapperButton") or contains(@id,"moreMenuButton")]</xpath1>
+		</Element>
+		<Element title="RelativeSelectTag">
+			<tagName>select</tagName>
+		</Element>
+		<Element title="InstantInstallCheckBox">
+			<xpath1>//div[contains(@class,"checkbox")] | /*[@id="editable_instantInstallViaMdm"]</xpath1>
+		</Element>
+		<Element title="RemoveOnMDMControlRemovalCheckBox">
+			<xpath1>//input[contains(@id,"editable_removeAppOnMdmRemoval")]//parent::div</xpath1>
+		</Element>
+		<Element title="RemoveOnSelectiveWipeCheckBox">
+			<xpath1>//input[contains(@id,"editable_removeAppOnSelectiveWipe")]//parent::div</xpath1>
+		</Element>
+		<Element title="EnforceComplianceCheckbox">
+			<xpath1>//input[contains(@id,"editable_blockAppUseWhenDeviceOOC")]//parent::div</xpath1>
+		</Element>
+		<Element title="EnforceAuthenticationCheckBox">
+			<xpath1>//input[contains(@id,"editable_authenticateOnUsage")]//parent::div</xpath1>
+		</Element>
+		<Element title="RemoveOnStoppingDistributionCheckBox">
+			<xpath1>//input[contains(@id,"editable_removeOnStopDistribution")]//parent::div</xpath1>
+		</Element>
+		<Element title="RestrictDataBackupToiTunesCheckBox">
+			<xpath1>//input[contains(@id,"editable_restrictUnencryptedBkup")]//parent::div</xpath1>
+		</Element>
+		<Element title="RemoveOnMDMControlandSelectiveWipeCheckBox">
+			<xpath1>//input[contains(@id,"editable_removeAppOnSelectiveWipe")]//parent::div</xpath1>
+		</Element>
+		<Element title="ShowActiveAppsButton">
+			<xpath1>//a[contains(@class,'titleBarBlueHeaderButton')]</xpath1>
+		</Element>
+		<Element title="DeleteLink">
+			<xpath1>//div[text()='#']//following-sibling::div//a[contains(@href,'REMOVE_APP')]</xpath1>
+		</Element>
+		<Element title="ViewLink">
+			<xpath1>//div[text()='#']//following-sibling::div//a[contains(@href,'showDeleted')] | //div[text()='#']/..//a[@title='View']</xpath1>
+		</Element>
+		<Element title="DistributeLink">
+			<xpath1>//div[text()='#']//following-sibling::div//a[contains(@href,'ADD_DISTRIBUTION')]</xpath1>
+		</Element>
+		<Element title="BackImage">
+			<xpath1>//img[@class='backResIconNew'] | //*[@id="viewUIContentPanel"]/div[1]/div[1]/img | //*[@id="provProfileListTitle"]/div[1]/img | //img[contains(@title,"Back")]</xpath1>
+		</Element>
+		<Element title="SecurityPoliciesCheckbox">
+			<xpath1>//label[text()="#"]//preceding-sibling::div[1]| //label[contains(text(),"#")]//parent::span//following-sibling::span//div | //label[contains(text(),"#")]//parent::span//div[contains(@class,"customCheckBox")]</xpath1>
+		</Element>
+		<Element title="ITunesAppDistributeToList">
+			<xpath1>//*[@id="deviceType1"]</xpath1>
+		</Element>
+		<Element title="YesLink">
+			<xpath1>//div[text()='#']//ancestor::tr//a[@class='popupLink']</xpath1>
+		</Element>
+		<Element title="DistributedToToolTip">
+			<xpath1>//div[text()='#']//ancestor::tr//span[@class='js-black_tooltip']//span[@title]</xpath1>
+		</Element>
+		<Element title="DistributionCount">
+			<xpath1>//a[@id='distributionCount']</xpath1>
+		</Element>
+		<Element title="AddAppNameDetails">
+			<xpath1>//a[contains(text(),"#")][contains(@class,"tab-link")] | //a[contains(text(),'Configuration')]/parent::li/following-sibling::li</xpath1>
+		</Element>
+		<Element title="AddAppNameDetailsClickedCheck">
+			<xpath1>//a[contains(text(),"#")][contains(@class,"tab-link")]//parent::li</xpath1>
+		</Element>
+		<Element title="ApplicationMoreLink">
+			<xpath1>//div[text()="#"]//following-sibling::div//a[@class='moreLink']</xpath1>
+		</Element>
+		<Element title="ApplicationMoreLinkMenu">
+			<xpath1>//div[@class='moreLinksShortMenu'] | //a[@class='moreLink']</xpath1>
+		</Element>
+		<Element title="MoreLinkMenuOption">
+			<xpath1>//a[text()="#"]</xpath1>
+		</Element>
+		<Element title="WebAppDisplayName">
+			<xpath1>//input[@id='appName']</xpath1>
+		</Element>
+		<Element title="WebAppDisplayURL">
+			<xpath1>//input[@id='urlManageApp']</xpath1>
+		</Element>
+		<Element title="WebAppDisplayDescription">
+			<xpath1>//textarea[@id='description']</xpath1>
+		</Element>
+		<Element title="WebAppDisplayCategory">
+			<xpath1>//input[@id='categories']</xpath1>
+		</Element>
+		<Element title="UploadVPPPanelHeader">
+			<xpath1>//div[@class='modal-header-text']</xpath1>
+		</Element>
+		<Element title="AppSourceTextBoxHidden">
+			<xpath1>//input[contains(@id,'IOSPublicAppSearchInputMask')]</xpath1>
+		</Element>
+		<Element title="GoogleAppSourceTextBoxHidden">
+			<xpath1>//input[@id='androidPublicAppSearchInputMask']</xpath1>
+		</Element>
+		<Element title="WindowsAppSourceTextBoxHidden">
+			<xpath1>//input[@id='windowsPublicAppSearchInputMask']</xpath1>
+		</Element>
+		<Element title="ApplicationTabContainer">
+			<xpath1>//div[@id='tabs']</xpath1>
+		</Element>
+		<Element title="AppDiscoveryPortal">
+			<xpath1>//select[contains(@id,"appDiscoveryPortal")]</xpath1>
+		</Element>
+		<Element title="KeystoreFile">
+			<xpath1>//input[@id='keystoreFile']</xpath1>
+		</Element>
+		<Element title="KeystorePassword">
+			<xpath1>//input[contains(@id,"keystorePassword")]</xpath1>
+		</Element>
+		<Element title="KeystoreAliasNameText">
+			<xpath1>//input[contains(@id,"keystoreAliasName")]</xpath1>
+		</Element>
+		<Element title="AppDiscoveryPortalMailId">
+			<xpath1>//input[contains(@id,"adpEmailId")]</xpath1>
+		</Element>
+		<Element title="ApplicationPolicies">
+			<xpath1>//li[text()="#"]//following-sibling::li[position()=1]//input//parent::div</xpath1>
+		</Element>
+		<Element title="ApplicationDiscoveryPortalPolicy">
+			<xpath1>//li[text()="#"]//following-sibling::li//select</xpath1>
+		</Element>
+		<Element title="ApplicationNameFilterBox">
+			<xpath1>//div[contains(@class,"flFilterDiv") and contains(@style,"display: block")]//input</xpath1>
+		</Element>
+		<Element title="ApplicationNameFilterBoxSearchIcon">
+			<xpath1>//div[contains(@class,"flFilterDiv") and contains(@style,"display: block")]//span[@class="flTickBtn selected"]</xpath1>
+		</Element>
+		<Element title="ApplicationNameFilterClearButton">
+			<xpath1>//div[contains(@class,"flFilterDiv") and contains(@style,"display: block")]//div[@id="cleartest"]</xpath1>
+		</Element>
+		<Element title="AppInstallationRange">
+			<xpath1>//span[@class="installCountCol"]</xpath1>
+		</Element>
+		<Element title="AppInstallationCount">
+			<xpath1>//span[@class="installCountCol"]//following-sibling::span[@class="group tooltip_image groups_ui_sprite"]</xpath1>
+		</Element>
+		<Element title="AppInstallationCountToolTip">
+			<xpath1>//span[@class="installCountCol"]//following-sibling::span[contains(@class,"hover_display") and contains(@style,"display:inline")]</xpath1>
+		</Element>
+		<Element title="AppInstallationCountToolTipText">
+			<xpath1>//span[@class="black_tooltip"]</xpath1>
+		</Element>
+		<Element title="AvailableForDialogBoxForGroupName">
+			<xpath1>//*[@id="availableForLabel"]//..//span/div</xpath1>
+		</Element>
+		<Element title="DistributionOptionForTarget">
+			<xpath1>//*[@id="deviceType"] | //*[@id="deviceType1"]</xpath1>
+		</Element>
+		<Element title="groupListDropDown">
+			<xpath1>//select[@id="userGroups"]</xpath1>
+		</Element>
+		<Element title="AppBundleContentDialog">
+			<xpath1>//div[contains(@id,'dialog-box-div')]</xpath1>
+		</Element>
+		<Element title="AppbundleTabContainer">
+			<xpath1>//form[@id='windowsEntTypeSelect'] | //form[@id='appBundleForm']</xpath1>
+		</Element>
+		<Element title="ButtonName">
+			<xpath1>//button[contains(text(),'#')] | //a[contains(text(),'#')] | //span[contains(text(),'#')]</xpath1>
+		</Element>
+		<Element title="DistributeButton">
+			<xpath1>//input[@id="bt_distApp"]</xpath1>
+		</Element>
+		<Element title="ProvisioningProfile">
+			<xpath1>//input[@id='multipartFileiOSProvisioningProfile']</xpath1>
+		</Element>
+		<Element title="UploadCodeSigningCertificate">
+			<xpath1>//input[@id='multipartFileiOSCodeSigningCert']</xpath1>
+		</Element>
+		<Element title="CodeSigningCertificate">
+			<xpath1>//input[@id='iosCodeSigningCertificateText']</xpath1>
+		</Element>
+		<Element title="CodeSigningCertificatePassword">
+			<xpath1>//input[@id='iosCodeSigningCertificatePassword']</xpath1>
+		</Element>
+		<Element title="LinkAddNew">
+			<xpath1>//a[@class='provPad']</xpath1>
+		</Element>
+		<Element title="ProvisioningAddNewlink">
+			<xpath1>//div[@id='newProvProf_div']</xpath1>
+		</Element>
+		<Element title="CertificateAddNewlink">
+			<xpath1>//div[@id='newCert_div']</xpath1>
+		</Element>
+		<Element title="DistributionPopup">
+			<xpath1>//li[contains(@id,"viewDistributionDetails_name")]//following-sibling::li//span[contains(@class,"tooltipLink distContainer")]</xpath1>
+		</Element>
+		<Element title="DistributionDetailsPopup">
+			<xpath1>//li[contains(@id,"viewDistributionDetails_name")]//following-sibling::li//div[contains(@id,"toolTipContent0")]</xpath1>
+		</Element>
+		<Element title="DistributionPolicy">
+			<xpath1>//span[text()="#"]//preceding-sibling::div</xpath1>
+		</Element>
+		<Element title="ProvisioningProfileList">
+			<xpath1>//*[@id="selectProvProfId"]</xpath1>
+		</Element>
+		<Element title="CodeSigningCertificateList">
+			<xpath1>//*[@id="iOScertSelectId"]</xpath1>
+		</Element>
+		<Element title="KeystoreText">
+			<xpath1>//input[contains(@id,"keystoreText")]</xpath1>
+		</Element>
+		<Element title="CheckApplicationPolicies">
+			<xpath1>//li[contains(text(),"#")]//following-sibling::li[position()=1]//div//img</xpath1>
+		</Element>
+		<Element title="URLUploadTextbox12">
+			<xpath1>//input[@id='urlManageAppMask']</xpath1>
+		</Element>
+		<Element title="AppDiscoveryPortalMailIdTextBox">
+			<xpath1>//input[contains(@id,"adpEmailIdMask")]</xpath1>
+		</Element>
+		<Element title="dataTablesWrapper">
+			<xpath1>//div[contains(@class,"dataTables_wrapper")]//tbody//tr</xpath1>
+		</Element>
+		<Element title="SelectAllApp">
+			<xpath1>//input[contains(@title,"Select all on this page")]</xpath1>
+		</Element>
+		<Element title="SelectAllDeleleAndDist">
+			<xpath1>//span[contains(@class,"actionArea")]//span[contains(text(),"#")]</xpath1>
+		</Element>
+		<Element title="confirmDeleteButton">
+			<xpath1>//span[contains(@class,"ui-button-text") and contains(text(),"OK")]</xpath1>
+		</Element>
+		<Element title="CancelCustomizeColumnButton">
+			<xpath1>//input[contains(@id,"flCustomizedGrid-close-popup")]</xpath1>
+		</Element>
+		<Element title="AddVPPToken">
+			<xpath1>//button[contains(@id,"addVPPToken")]</xpath1>
+		</Element>
+		<Element title="DistributionDetails">
+			<xpath1>//li[contains(@id,"viewDistributionDetails_name")]//following-sibling::li/div/span</xpath1>
+		</Element>
+		<Element title="ButtonList">
+			<xpath1>//div[contains(@class,"addElementsToGridContainer")]//input</xpath1>
+		</Element>
+		<Element title="ViewAppSummary">
+			<xpath1>//div[contains(@id,"appSummaryGrid")]</xpath1>
+		</Element>
+		<Element title="ViewAppDisplayRecord">
+			<xpath1>//div[@class="jumpPageContainer"]</xpath1>
+		</Element>
+		<Element title="ApplicationName">
+			<xpath1>//div[text()="#"]</xpath1>
+		</Element>
+		<Element title="AppCheckbox">
+			<xpath1>//table[contains(@id,"table_manageUsersDiv")]//tr//td//input[contains(@class,"multiCheckBox")]</xpath1>
+		</Element>
+		<Element title="AppCheckboxForMaaSApp">
+			<xpath1>//div[text()="MaaS360"]//ancestor::tr//td//input[contains(@class,"multiCheckBox")]</xpath1>
+		</Element>
+		<Element title="AppCheckboxForArroundApp">
+			<xpath1>//div[text()="AroundMe"]//ancestor::tr//td//input[contains(@class,"multiCheckBox")]</xpath1>
+		</Element>
+		<Element title="MaaSApp">
+			<xpath1>//div[text()="MaaS360"]</xpath1>
+		</Element>
+		<Element title="AroundMe">
+			<xpath1>//div[text()="AroundMe"]</xpath1>
+		</Element>
+		<Element title="ContinueUploadButton">
+			<xpath1>//span[contains(text(),"#")]</xpath1>
+		</Element>
+		<Element title="AppNameForOSX">
+			<xpath1>//input[contains(@id,"appName")]</xpath1>
+		</Element>
+		<Element title="ExecutionbehaviorDropDown">
+			<xpath1>//label[contains(text(),"#")]//parent::span//span//select</xpath1>
+		</Element>
+		<Element title="CommandTextBox">
+			<xpath1>//input[contains(@id,"cmd")]</xpath1>
+		</Element>
+		<Element title="ManageVersionCheckbox">
+			<xpath1>//div[contains(@id,'#')]</xpath1>
+		</Element>
+		<Element title="UpgradeAppButtonNew">
+			<xpath1>//div[contains(@id,'bt_addAppVersion')]</xpath1>
+		</Element>
+		<Element title="ExpandVersion">
+			<xpath1>//*[text()='#']//ancestor::tr//following::a[@class="accordion"]</xpath1>
+		</Element>
+		<Element title="ViewLinkMultipleApp">
+			<xpath1>//div[text()='#']/ancestor::td//ancestor::tr//following-sibling::tr//td[3]//div[2]/a[contains(@href,'showDeleted')]</xpath1>
+		</Element>
+		<Element title="ClickOnAppCatalogSettingsButton">
+			<xpath1>//*[@id="settingsLink"]</xpath1>
+		</Element>
+		<Element title="SelectNewAppCatalogForIos">
+			<xpath1>//*[@id="catalogEnable"]</xpath1>
+		</Element>
+		<Element title="ClickConfirmButton">
+			<xpath1>//*[@id="manageSettingConfirm"]</xpath1>
+		</Element>
+		<Element title="PasswordToConfirm">
+			<xpath1>//*[@id="js-pwd-input"]</xpath1>
+		</Element>
+		<Element title="ConfirmPassword">
+			<xpath1>//*[@id="pwd-confirm"]</xpath1>
+		</Element>
+		<Element title="EnableNewAppForIOS">
+			<xpath1>//span[text()="#"]//preceding-sibling::div</xpath1>
+		</Element>
+		<Element title="AppCatalogMode">
+			<xpath1>//span[contains(@class,"dist-margin-chbox text-appearance") and contains(text(),"#")]//preceding-sibling::input</xpath1>
+		</Element>
+		<Element title="AppDistributionPassword">
+			<xpath1>//*[@id="cloneId"]</xpath1>
+		</Element>
+		<Element title="VPPServiceToken">
+			<xpath1>//*[@id="sToken"]</xpath1>
+		</Element>
+		<Element title="TokenName">
+			<xpath1>//*[@id="sTokenName"]</xpath1>
+		</Element>
+		<Element title="SubmitButton">
+			<xpath1>//*[@id="upload"]</xpath1>
+		</Element>
+		<Element title="UpgradeAppLink">
+			<xpath1>//*[@id="bt_addAppVersion"]//span</xpath1>
+		</Element>
+		<Element title="DeleteScreenshot">
+			<xpath1>//span[contains(@title,"Delete Screenshot") and contains(@onclick,"#")]</xpath1>
+		</Element>
+		<Element title="ConfirmButton">
+			<xpath1>//input[contains(@id,"confirm")]</xpath1>
+		</Element>
+		<Element title="EditAppAttribute">
+			<xpath1>//li[contains(text(),"#")]//following-sibling::li[1]//input[contains(@class,"edit")]</xpath1>
+		</Element>
+		<Element title="AppAttributeValue">
+			<xpath1>//li[contains(text(),"#")]//following-sibling::li[1]//input[contains(@id,"editable")]</xpath1>
+		</Element>
+		<Element title="SaveAppAttribute">
+			<xpath1>//li[contains(text(),"#")]//following-sibling::li[1]//img[contains(@id,"save")]</xpath1>
+		</Element>
+		<Element title="AppPoliciesTableAndroid">
+			<xpath1>//*[@id="x-dv-category_div-app-summary_2_wrapper"]</xpath1>
+		</Element>
+		<Element title="AppPoliciesRowsAndroid">
+			<xpath1>//ul[contains(@id,'x-dv-category_div-app-summary_2')]</xpath1>
+		</Element>
+		<Element title="PanelBodySubXpath">
+			<xpath1>//input[contains(@class,'text')and @type='text' and contains(@id,'cloneId')]</xpath1>
+		</Element>
+		<Element title="InputTypeList">
+			<xpath1>//select[contains(@id,"appConfig")]</xpath1>
+		</Element>
+		<Element title="AttributeName">
+			<xpath1>//input[contains(@class,"mask_text") and contains(@id,"attrKey")]</xpath1>
+		</Element>
+		<Element title="AttributeNameTextBox">
+			<xpath1>//input[contains(@class,"plain_text") and contains(@id,"attrKey")]</xpath1>
+		</Element>
+		<Element title="AttributeValue">
+			<xpath1>//input[contains(@id,"attrVal") and contains(@class,"mask_text")]</xpath1>
+		</Element>
+		<Element title="AttributeValueTextBox">
+			<xpath1>//input[contains(@id,"attrVal") and contains(@class,"plain_text")]</xpath1>
+		</Element>
+		<Element title="DownloadIcon">
+			<xpath1>//a[contains(@id,"app-summary-download")]</xpath1>
+		</Element>
+		<Element title="ProvisioningProfileName">
+			<xpath1>//div[text()="#"]</xpath1>
+		</Element>
+		<Element title="ProvisioningProfileActions">
+			<xpath1>//div[text()="#"]//parent::td//div//a[contains(text(),"^")]</xpath1>
+		</Element>
+		<Element title="RemoveProvisioningProfileOkButton">
+			<xpath1>//input[contains(@id,"confirmRemoveProvProfile")]</xpath1>
+		</Element>
+		<Element title="RemoveProvisioningProfileTitle">
+			<xpath1>//*[contains(@class,"remove-prov-profile-header")]</xpath1>
+		</Element>
+		<Element title="UpdateProvisioningProfile">
+			<xpath1>//input[contains(@name,"fake_updateProvisioningProfile")]</xpath1>
+		</Element>
+		<Element title="AppActionsUnderMore">
+			<xpath1>//span[contains(text(),"#")]</xpath1>
+		</Element>
+		<Element title="appBundleName">
+			<xpath1>//input[contains(@id,"appBundleName")]</xpath1>
+		</Element>
+		<Element title="AddfromDefaultsLink">
+			<xpath1>//a[contains(@class,'flip_bundle_icon flip-bundle-icon-line-height')]</xpath1>
+		</Element>
+		<Element title="defaultBundleIcon">
+			<xpath1>//*[contains(@id,"defaultBundleIcon")]</xpath1>
+		</Element>
+		<Element title="defaultIconList">
+			<xpath1>//ul[contains(@class,"dd-options dd-click-off-open")]//li</xpath1>
+		</Element>
+		<Element title="BundleNameTextBoxHidden">
+			<xpath1>//input[contains(@id,"existingBundleNameMask")]</xpath1>
+		</Element>
+		<Element title="BundleNameTextBox">
+			<xpath1>//input[contains(@name,"existingBundleName")]</xpath1>
+		</Element>
+		<Element title="BundleNameGridBoxContent">
+			<xpath1>//div[contains(@class,'acCell')]</xpath1>
+		</Element>
+		<Element title="B2BAppNameMask">
+			<xpath1>//input[contains(@id,"b2bAppNameMask")]</xpath1>
+		</Element>
+		<Element title="B2BAppNameTextBox">
+			<xpath1>//input[contains(@name,"b2bAppName")]</xpath1>
+		</Element>
+		<Element title="B2BAppURLMask">
+			<xpath1>//input[contains(@id,"b2bITunesURLMask")]</xpath1>
+		</Element>
+		<Element title="B2BAppURLTextBox">
+			<xpath1>//input[contains(@name,"b2bITunesURL")]</xpath1>
+		</Element>
+		<Element title="B2BAppIconURLMask">
+			<xpath1>//input[contains(@id,"b2bAppIconURLMask")]</xpath1>
+		</Element>
+		<Element title="B2BAppIconURLTextBox">
+			<xpath1>//input[contains(@name,"b2bAppIconURL")]</xpath1>
+		</Element>
+		<Element title="B2BBundleIdMask">
+			<xpath1>//input[contains(@id,"b2bBundleIDMask")]</xpath1>
+		</Element>
+		<Element title="B2BBundleIdTextBox">
+			<xpath1>//input[contains(@name,"b2bBundleID")]</xpath1>
+		</Element>
+		<Element title="B2BVersionMask">
+			<xpath1>//input[contains(@id,"b2bVersionMask")]</xpath1>
+		</Element>
+		<Element title="B2BVersionTextBox">
+			<xpath1>//input[contains(@name,"b2bVersion")]</xpath1>
+		</Element>
+		<Element title="B2BCategoryMask">
+			<xpath1>//input[contains(@id,"b2bCategoryMask")]</xpath1>
+		</Element>
+		<Element title="B2BCategoryTextBox">
+			<xpath1>//input[contains(@name,"b2bCategory")]</xpath1>
+		</Element>
+		<Element title="B2BScreenShotTextBox">
+			<xpath1>//input[contains(@id,"screenshotURL")]</xpath1>
+		</Element>
+		<Element title="B2BDescriptionMask">
+			<xpath1>//input[contains(@id,"b2bDescriptionMask")]</xpath1>
+		</Element>
+		<Element title="B2BDescriptionTextBox">
+			<xpath1>//input[contains(@name,"b2bDescription")]</xpath1>
+		</Element>
+        <Element title="AddNewDropDownMenu">
+			<xpath1>//div[contains(@id,"addNewDropDownMenu") and contains(@style,"display: block")]</xpath1>
+		</Element>
+		<Element title="AppActionLinks">
+			<xpath1>//div[contains(text(),"#")]//following::div[1]//a</xpath1>
+		</Element>
+		<Element title="AppUploadErrorMsg">
+			<xpath1>//div[contains(@id,"errorMsgDivText")]</xpath1>
+		</Element>
+        <Element title="TokenInUseWindow">
+			<xpath1>//div[@id='errorMsgDivText' and contains(text(), "seems to be in use")]</xpath1>
+		</Element>
+        <Element title="YesButton">
+			<xpath1>//*[@id='submitReclaimTokenCtx']</xpath1>
+		</Element>
+		<Element title="ShowRecords">
+			<xpath1>//*[@id='displayLengthList']</xpath1>
+		</Element>
+		<Element title="OddRowRecords">
+			<xpath1>//*[contains(@class,'odd')]//*[@class='msPointer sorting_1']</xpath1>
+		</Element>
+		<Element title="EvenRowRecords">
+			<xpath1>//*[contains(@class,'even')]//*[@class='msPointer sorting_1']</xpath1>
+		</Element>
+		<Element title="JumpPageTextBox">
+			<xpath1>//*[@id='manageUsersDiv_jumpPageContainer']</xpath1>
+		</Element>
+		<Element title="JumpToPageButton">
+			<xpath1>//*[@id='manageUsersDiv_jumpPageBtn']</xpath1>
+		</Element>
+		<Element title="JumpedToNPage">
+			<xpath1>//a[(@class='fg-button ui-button ui-state-default ui-state-disabled') and contains(text(),'#')]</xpath1>
+		</Element>
+		<Element title="tableValues">
+			<xpath1>//table[contains(@id,'table_manageUsersDiv')]//tbody//tr</xpath1>
+		</Element>
+		<Element title="ExpandButton">
+			<xpath1>//*[contains(@class,'accordion')]//a</xpath1>
+		</Element>
+		<Element title="ViewSecondLink">
+			<xpath1>//*[contains(text(),"#")]//parent::tr//div[contains(text(),"^")]/following-sibling::div//a[contains(@href,'showDeleted')]</xpath1>
+		</Element>
+		<Element title="MarkAppAsPrimaryLink">
+			<xpath1>//*[@id="bt_markAsPrimary"]//span</xpath1>
+		</Element>
+		<Element title="LinkName">
+			<xpath1>//a[contains(text(),'#')] | //span[contains(text(),'#')]</xpath1>
+		</Element>
+		<Element  title="InstantUpdateCheckBox">
+			<xpath1>//div[@id="div_instantInstall"] | //*[@id="instantUpdateBlk"]</xpath1>
+		</Element>
+		<Element title="ContinueButtonOnMarkAsPrimary">
+			<xpath1>//*[@value='Continue']</xpath1>
+		</Element>
+		<Element title="KeystoreCertificateList">
+			<xpath1>//select[contains(@id,"keystoreSelectId")]</xpath1>
+		</Element>
+		<Element title="EditAppCommentButton">
+			<xpath1>//input[contains(@id,'comments_editButton')]</xpath1>
+		</Element>
+		<Element title="EditAppCommentTextArea">
+			<xpath1>//textarea[contains(@id,'editable_comments_editor')]</xpath1>
+		</Element>
+		<Element title="EditTextAreaCommonSave">
+			<xpath1>//img[contains(@id,"_save")]</xpath1>
+		</Element>
+		<Element title="IAgreeButton">
+			<xpath1>//input[@value='I Agree']</xpath1>
+		</Element>
+		<Element title="UWPCheckBox">
+			<xpath1>//input[@id='useWinMDM_checkbox']</xpath1>
+		</Element>
+		<Element title="PFNCheckBox">
+			<xpath1>//input[@id='appxPFNMask']</xpath1>
+		</Element>
+		<Element title="PFNCheckBoxDisplay">
+			<xpath1>//span[@id='span_appx_pfn']</xpath1>
+		</Element>
+		<Element title="GetLicenseCount">
+			<xpath1>//div[text()='#']/../..//a[contains(@href,'manageVPPCodesController')]</xpath1>
+		</Element>
+		<Element title="DeviceLicense">
+			<xpath1>//*[@id='deviceLicenceType']</xpath1>
+		</Element>
+		<Element title="UserLicense">
+			<xpath1>//*[@id='userLicenceType']</xpath1>
+		</Element>
+		<Element title="InstantInstall">
+			<xpath1>//*[@id='div_instantInstall']</xpath1>
+		</Element>
+		<Element title="SearchTdElement">
+			<xpath1>//td[text()='#']</xpath1>
+		</Element>
+		<Element title="SearchAdjTdElement">
+			<xpath1>//td[text()='#']/../td[text()='^']</xpath1>
+		</Element>
+		<Element title="ReleaseLicense">
+			<xpath1>//td[text()='#']/..//a[text()='Release License']</xpath1>
+		</Element>
+		<Element title="AppsTable">
+			<xpath1>//table[@id='table_manageUsersDiv']</xpath1>
+		</Element>
+		<Element title="StopDistributionIcon">
+			<xpath1>//*[@id="toolTipStop0"]</xpath1>
+		</Element>
+		<Element title="DistributeSecondLink">
+			<xpath1>//*[contains(text(),"#")]//parent::tr//div[contains(text(),"^")]/following-sibling::div//a[contains(@href,'ADD_DISTRIBUTION')]</xpath1>
+		</Element>
+		<Element title="AppCheckboxForSpecificApp">
+			<xpath1>//div[text()="#"]//ancestor::tr//td//input[contains(@class,"multiCheckBox")]</xpath1>
+		</Element>
+		<Element title="ClickOnBundle">
+			<xpath1>//div[@class="multiOverLay"]//span[contains(text(),"Bundle")]</xpath1>
+		</Element>
+		<Element title="ClickOnDeleteAppButton">
+			<xpath1>//div[@class="multiOverLay"]//span[contains(text(),"Delete")]</xpath1>
+		</Element>
+		<Element title="TokenRows">
+			<xpath1>//table[@id='table_manageVPPTokensDiv']//tr[@class='odd' or @class='even']</xpath1>
+		</Element>
+		<Element title="TokenAction">
+			<xpath1>//div[@class = 'linkCont']//a[contains(text(), '#')]</xpath1>
+		</Element>
+		<Element title="VPPTokenAction">
+			<xpath1>//div[text()='^']/following-sibling::div[@class="linkCont"]//a[text()='#']</xpath1>
+		</Element>
+		<Element title="SyncButton">
+			<xpath1>//input[@value='Sync']</xpath1>
+		</Element>
+		<Element title="DisableButton">
+			<xpath1>//input[@id='disable']</xpath1>
+		</Element>
+		<Element title="NoTokenMessage">
+			<xpath1>//table[@id = 'table_manageVPPTokensDiv']//td</xpath1>
+		</Element>
+		<Element title="RefreshButton">
+			<xpath1>//a[@class = 'titleBarBlueRefreshButton']</xpath1>
+		</Element>
+		<Element title="VPPCodeCell">
+			<xpath1>//table[@id='table_manageUsersDiv']//div[contains(text(), '#')]//ancestor::td//following-sibling::td[6]</xpath1>
+		</Element>
+		<Element title="UserGroupTextArea">
+			<xpath1>//*[@id="groupsVisibleInput"]</xpath1>
+		</Element>
+		<Element title="UserGroupListPanel">
+			<xpath1>//ul[@aria-activedescendant = 'ui-active-menuitem']</xpath1>
+		</Element>
+		<Element title="UserGroupOptions">
+			<xpath1>//a[@class = 'ui-corner-all']</xpath1>
+		</Element>
+		<Element title="EncryptFiles">
+			<xpath1>//div[contains(@title,"#")]//parent::span//div[contains(@class,"customCheckBox")]</xpath1>
+		</Element>
+		<Element title="EncryptDatabase">
+			<xpath1>//div[contains(@title,"#")]//parent::span//div[contains(@class,"customCheckBox")]</xpath1>
+		</Element>
+		<Element title="EncryptSharedPreferences">
+			<xpath1>//div[contains(@title,"#")]//parent::span//div[contains(@class,"customCheckBox")]</xpath1>
+		</Element>
+		<Element title="SendEmail">
+			<xpath1>//*[@id='sendEmailNotification']/parent::div</xpath1>
+		</Element>
+		<Element title="RemoveAppStopDistribution">
+			<xpath1>//input[contains(@id,"removeOnStopDistribution")]//parent::div</xpath1>
+		</Element>
+		<Element title="SignOutSharedDevice">
+			<xpath1>//input[contains(@id,"removeOnSignOutFromSharedDevice")]//parent::div</xpath1>
+		</Element>
+		<Element title="appTextAreaMaskElement">
+			<xpath1>//textarea[@id='appNameMask']</xpath1>
+		</Element>
+		<Element title="appTextAreaElement">
+			<xpath1>//textarea[@id='appName']</xpath1>
+		</Element>
+		<Element title="AppInAppBundleTextArea">
+			<xpath1>//div[contains(@title,"#)]/ancestor::li</xpath1>
+		</Element>
+		<Element title="AppBundleInstantInstall">
+			<xpath1>//*[@id='instantInstall']/parent::div</xpath1>
+		</Element>
+		<Element title="AppBundleDistributeTo">
+			<xpath1>//*[@id="deviceType"]</xpath1>
+		</Element>
+		<Element title="AppBundleGroupList">
+			<xpath1>//*[@id="deviceGroupId"]</xpath1>
+		</Element>
+		<Element title="VPPTokenUserCount">
+			<xpath1>//div[text()='#']/../../td[2]</xpath1>
+		</Element>
+		<Element title="SimpleReleaseLicense">
+			<xpath1>//a[text()='Release License']</xpath1>
+		</Element>
+		<Element title="ExcludeFiles">
+			<xpath1>//input[@id='excludedFileNames']</xpath1>
+		</Element>
+		<Element title="ExcludeFileTypes">
+			<xpath1>//input[@id='excludedFileTypes']</xpath1>
+		</Element>
+		<Element title="ExcludePackagedFiles">
+            <xpath1>//input[@id='staticResourceExcludedFileNames']</xpath1>
+        </Element>
+        <Element title="ExcludePackagedFileTypes">
+            <xpath1>//input[@id='staticResourceExcludedFileTypes']</xpath1>
+        </Element>
+		<Element title="ExcludedFileName">
+			<xpath1>//li[text()='Excluded Files']/following-sibling::li[text()='#']</xpath1>
+		</Element>
+		<Element title="ExcludedFileTypeNames">
+			<xpath1>//li[text()='Excluded File Types']/following-sibling::li[text()='#']</xpath1>
+		</Element>
+		<Element title="UploadAppTypeWindows">
+			<xpath1>//*[contains(text(),'#') and contains(@class,'windows-app-type-header')]</xpath1>
+		</Element>
+		<Element title="ManageDependenciesForWindowsApps">
+			<xpath1>//*[@id="windowsDependencies"]</xpath1>
+		</Element>
+		<Element title="UploadDependency">
+			<xpath1>//*[@id="uploadDependencyBtn"]</xpath1>
+		</Element>
+		<Element title="WrappingAndSigning">
+            <xpath1>//*[@id='tabs-wrapping-and-signing-overflow']</xpath1>
+        </Element>
+		<Element title='UsersCount'>
+			<xpath1>//table[@id='table_manageVPPTokensDiv']//tr//div[contains(text(),'#')]/../following-sibling::td[1]</xpath1>
+		</Element>
+		<Element title="DeleteCheckBoxHierachyPartner">
+			<xpath1>//*[@id='checkBoxHierachy']</xpath1>
+		</Element>
+		<Element title="DeleteProceedPartner">
+			<xpath1>//input[@value='Proceed']</xpath1>
+		</Element>
+		<Element title="StopDistributionPartner">
+			<xpath1>//*[@id='toolTipStop0']</xpath1>
+		</Element>
+		<Element title="AppPackageCodeMask">
+			<xpath1>//input[@id="packageCodeMask"]</xpath1>
+		</Element>
+		<Element title="AppPackageCode">
+			<xpath1>//input[@id="packageCode"]</xpath1>
+		</Element>
+		<Element title="AppUpgradeCodeMask">
+			<xpath1>//input[@id="upgradeCodeMask"]</xpath1>
+		</Element>
+		<Element title="AppUpgradeCode">
+			<xpath1>//input[@id="upgradeCode"]</xpath1>
+		</Element>
+		<Element title="AppNameMask">
+			<xpath1>//input[@id="appNameMask"]</xpath1>
+		</Element>
+		<Element title="AppName">
+			<xpath1>//input[@id="appName"]</xpath1>
+		</Element>
+		<Element title="AppVersionMask">
+			<xpath1>//input[@id="appVersionMask"]</xpath1>
+		</Element>
+		<Element title="AppVersion">
+			<xpath1>//input[@id="newAppVersion"] | //input[@id="appVersion"]</xpath1>
+		</Element>
+		<Element title="AppIconBrowseButton">
+			<xpath1>//label[contains(text(),"App Icon")]//following-sibling::span//button[contains(@class,'browseBtn')]</xpath1>
+		</Element>
+		<Element title="MSRemoveOnSelectiveWipe">
+			<xpath1>//input[@name="removeOnSelectiveWipe"]</xpath1>
+		</Element>
+		<Element title="MSRemoveOnStopDistribution">
+			<xpath1>//input[@name="removeOnStopDistribution"]</xpath1>
+		</Element>
+		<Element title="MSInstantInstall">
+			<xpath1>//input[@name="instantInstall"]</xpath1>
+		</Element>
+		<Element title="InstallSuccessCriteria">
+			<xpath1>//select[@id="installCriteriaOption"]</xpath1>
+		</Element>
+		<Element title="EXEProcessNameMask">
+			<xpath1>//input[@id="processName0Mask"]</xpath1>
+		</Element>
+		<Element title="EXEProcessName">
+			<xpath1>//input[@id="processName0"]</xpath1>
+		</Element>
+		<Element title="EXEFilePathMask">
+			<xpath1>//input[contains(@id,'filePath0Mask') and contains(@style,'display: none;')]</xpath1>
+		</Element>
+		<Element title="EXEFilePathMaskClickable">
+			<xpath1>//input[@id='filePath0Mask']</xpath1>
+		</Element>
+		<Element title="EXEFilePath">
+			<xpath1>//input[@id="filePath0"]</xpath1>
+		</Element>
+		<Element title="RegPathMask">
+			<xpath1>//input[@id="regPath0Mask"]</xpath1>
+		</Element>
+		<Element title="RegPath">
+			<xpath1>//input[@id="regPath0"]</xpath1>
+		</Element>
+		<Element title="RegNameMask">
+			<xpath1>//input[@id="regValName0Mask"]</xpath1>
+		</Element>
+		<Element title="RegName">
+			<xpath1>//input[@id="regValName0"]</xpath1>
+		</Element>
+		<Element title="RegValueMask">
+			<xpath1>//input[@id="regValData0Mask"]</xpath1>
+		</Element>
+		<Element title="RegValue">
+			<xpath1>//input[@id="regValData0"]</xpath1>
+		</Element>
+		<Element title="EXEInstallCMD">
+			<xpath1>//input[@id="installCommand"]</xpath1>
+		</Element>
+		<Element title="EXEUnInstallCMD">
+			<xpath1>//input[@id="uninstallCommand"]</xpath1>
+		</Element>
+		<Element title="DateTimePicker">
+			<xpath1>//input[@id='datetimepicker']</xpath1>
+		</Element>
+		<Element title="PickCurrentDate">
+			<xpath1>//td[@class='active today' and text()='#']</xpath1>
+		</Element>
+		<Element title='NameHeader'>
+			<xpath1>//th[@id='filter_name']</xpath1>
+		</Element>
+		<Element title='ClearButton'>
+			<xpath1>//div[@id='cleartest']</xpath1>
+		</Element>
+		<Element title="ExpandOSBtn">
+			<xpath1>//div[@id="addNewDropDownMenu"]//span[contains(text(),"#")]/following-sibling::a[@class="plAccordion"]</xpath1>
+	    </Element>
+		<Element title="ExpandOSName">
+			<xpath1>//span[contains(text(),"#")] | //div[contains(text(),"#")]</xpath1>
+	    </Element>
+		<Element title="ExpandWindowsOSName">
+			<xpath1>//div[contains(@class,'plTextWrapper')]//span[contains(text(),'Windows')]</xpath1>
+	    </Element>
+	    <Element title="MacEnterpriseAppDropdownList">
+			<xpath1>//label[contains(text(),"#")]//ancestor::span//span//select
+			</xpath1>
+		</Element>
+		<Element title="ITunesAppSourceTextBoxMask">
+			<xpath1>//input[@id='ITunesAppSearchInputMask']</xpath1>
+		</Element>
+		<Element title="ITunesAppSourceTextBox">
+			<xpath1>//input[@id='ITunesAppSearchInput']</xpath1>
+		</Element>
+		<Element title="clickOnHere">
+			<xpath1>//a[contains(text(),"here")]</xpath1>
+		</Element>
+		<Element title="ApplicationContentDialogforMac">
+			<xpath1>//div[contains(@id,'dialog-box-div')]</xpath1>
+		</Element>
+		<Element title="AppbundleTabContainerforMac">
+			<xpath1>//div[contains(@class,"securePackageBuilderDownload")] | //div/h4[contains(@class,'windowHeaderText')]</xpath1>
+		</Element>
+		<Element title="DeleteCheckBoxHierachyPartner">
+			<xpath1>//*[@id='checkBoxHierachy']</xpath1>
+		</Element>
+		<Element title="DeleteProceedPartner">
+			<xpath1>//input[@value='Proceed']</xpath1>
+		</Element>
+		<Element title="StopDistributionPartner">
+			<xpath1>//*[@id='toolTipStop0']</xpath1>
+		</Element>
+		<Element title="DisabledStopDistriutionImg">
+			<xpath1>//img[@class="distImages disableDistribution"]</xpath1>
+		</Element>
+		<Element title="EnabledStopDistributionImg">
+			<xpath1>//img[@class="distImages"]</xpath1>
+		</Element>
+		<Element title="AddAvailabilty">
+			<xpath1>//input[@value='Add Availability']</xpath1>
+		</Element>
+		<Element title="SubmitAvailiabilty">
+			<xpath1>//input[@value='Submit']</xpath1>
+		</Element>
+		<Element title="StopAvailibityPartner">
+			<xpath1>//*[@id='toolTipStop50']</xpath1>
+		</Element>
+		<Element title= "NoDistributions">
+			<xpath1>//div[contains(text(),"No Distributions")]</xpath1>
+		</Element>
+		<Element title="AppOwner">
+			<xpath1>//li[contains(@id,"appOwner_name")]//following-sibling::li</xpath1>
+		</Element>
+		<Element title="AppPermissionsPanel">
+			<xpath1>//div[@id='div_appPermissions']</xpath1>
+		</Element>		
+		<Element title="InstallAutomaticallyCheckboxInput">
+			<xpath1>//input[contains(@id, 'instantInstall1')]</xpath1>
+		</Element>
+		<Element title="InstallAutomaticallyCheckbox">
+			<xpath1>//input[contains(@id, 'instantInstall1')]//parent::div</xpath1>
+		</Element>
+		<Element title = "WindowsPhoneAppPackageButton">
+           <xpath1>//*[@id='phoneApp'] </xpath1>
+		</Element >
+		<Element title="EnableWorkPlaceEncryption">
+            <xpath1>//div[@id='div_enableAppWrappingEncryptionForAndroid']</xpath1>
+        </Element>    
+        <Element title="EncryptFilesCheckBox">
+            <xpath1>//div[@id='encFiles']</xpath1>
+        </Element>    
+        <Element title="EncryptSharedPreferencesCheckBox">
+            <xpath1>//div[@id='encSharedPrefs']</xpath1>
+        </Element>    
+        <Element title="EncryptDatabaseCheckBox">
+            <xpath1>//div[@id='encDatabase']</xpath1>
+        </Element>
+		<Element title="codeSigningCertificateLink">
+            <xpath1>//*[@id="codeSigningCertificateLink"]</xpath1>
+        </Element>
+        <Element title="certName">
+            <xpath1>//div[contains(@title,'Certificate Name')]</xpath1>
+        </Element>
+		<Element title="Win10AppDistributeTo">
+            <xpath1>//select[@id="deviceType1"]</xpath1>
+        </Element>
+		<Element title="Win10AppDistributeToSpecificDevice">
+            <xpath1>//input[contains(@class,"distributeToDeviceSearch")]</xpath1>
+        </Element>
+		<Element title="Win10AppDistributeToGroup">
+            <xpath1>//select[@id="deviceGroupId1"]</xpath1>
+        </Element>
+		<Element title="UIBasedInstall">
+            <xpath1>//input[@name="uIBasedInstallation"]</xpath1>
+        </Element>
+		<Element title="EnableInstallSuccessCriteria">
+            <xpath1>//input[@name="restartInstSuccCr"]</xpath1>
+        </Element>
+		<Element title="FeaturedSubText">
+            <xpath1>//input[@id="featuredName"]</xpath1>
+        </Element>
+		<Element title="FeaturedSubTextMask">
+            <xpath1>//input[@id="featuredNameMask"]</xpath1>
+        </Element>
+		<Element title="FeaturedImageAddFrmDefaults">
+            <xpath1>//a[text()="Add from Defaults"]</xpath1>
+        </Element>
+		<Element title="FeaturedImageControl">
+            <xpath1>//*[@id="featuredDefaultImg"]</xpath1>
+        </Element>
+		<Element title="FeaturedImage1">
+            <xpath1>//*[@id="defaultFeaturedImage1"]</xpath1>
+        </Element>
+		<Element title="FeaturedImage1">
+            <xpath1>//*[@id="defaultFeaturedImage2"]</xpath1>
+        </Element>
+		<Element title="FeaturedImage3">
+            <xpath1>//*[@id="defaultFeaturedImage3"]</xpath1>
+        </Element>
+		<Element title="SetAsFeaturedBtn">
+            <xpath1>//*[@id="setAsFeatured"]</xpath1>
+        </Element>
+        <Element title="NotificationMessagesDiv">
+        	<xpath1>//div[@id='notification-messages']</xpath1>
+        </Element>
+        <Element title="NotificationMessages">
+        	<xpath1>//div[@id='notification-messages']//div</xpath1>
+        </Element>
+		<Element title="InstalledCount">
+			<xpath1>//a[@id='installCount']</xpath1>
+		</Element>
+		<Element title="AppInstalledStatus">
+        	<xpath1>//table[@id='table_manageUsersDiv']/thead//div[text()="Status"]/ancestor::thead/following-sibling::tbody//td[count(//table[@id='table_manageUsersDiv']//thead//div[text()="Status"]//parent::th//preceding-sibling::th) + 1]</xpath1>
+        </Element>
+		<Element title="EXEFileSizeMask">
+			<xpath1>//input[contains(@id,'fileSize0Mask') and contains(@style,'display: none;')]</xpath1>
+		</Element>
+		<Element title="EXEFileSizeMaskClickable">
+			<xpath1>//input[@id='fileSize0Mask']</xpath1>
+		</Element>
+		<Element title="EXEFileSize">
+			<xpath1>//input[@id="fileSize0"]</xpath1>
+		</Element>
+		<Element title="VPPTokenBrowseButton">
+			<xpath1>//button[contains(@class,'browseBtn') and @id="fileInputBrowse"]</xpath1>
+		</Element>
+		</Elements>
+	</ElementRepository>
